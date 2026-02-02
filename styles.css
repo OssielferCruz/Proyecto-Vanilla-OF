@@ -190,3 +190,28 @@ header p {
     justify-self: center;
   }
 }
+
+/*------------------>894px--------------------*/
+@media only screen and (min-width: 894px) {
+  .container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 25px;
+  }
+
+  header{
+    grid-column: 1 / 6;
+  }
+
+  .starscontainer{
+    grid-column: 6/-1;
+  }
+
+  .cardscontainer{
+    grid-column: 1 / -1;
+  }
+  
+  .footer{
+    grid-column: 1 / -1;
+  }
+}
