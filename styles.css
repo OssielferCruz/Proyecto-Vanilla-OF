@@ -74,6 +74,27 @@ header p {
   text-align: center;
 }
 
+/*------------------Cards--------------------*/
+
+.cards{
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  max-width: 330px;
+  height: 250px;
+  padding: 37px;
+  margin: 16px 24px 0px 24px;
+  color: hsl(300, 24%, 96%) ;
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+
+.cards img{
+  border-radius: 50%;
+
+}
+
+
 /*------------------Footer--------------------*/
 .attribution {
   font-size: 11px;
