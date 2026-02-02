@@ -215,3 +215,23 @@ header p {
     grid-column: 1 / -1;
   }
 }
+
+/*------------------1160px--------------------*/
+@media only screen and (min-width: 1160px) {
+  body{
+    background-size: 580px;
+  }
+  .container{
+    margin: 125px auto;
+    max-width: 1110px;
+  }
+  .cardscontainer{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 320px;
+  }
+  .cards{
+    margin: 0;
+  }
+}
