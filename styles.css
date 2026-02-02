@@ -44,6 +44,35 @@ header p {
   line-height: 25px;
 }
 
+/*------------------Stars--------------------*/
+.starscontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.stars{
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 4px;
+  margin: 8px;
+  width: 330px;
+  height: 80px;
+  padding: 15px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stars .fivestars{
+  min-width: 110px;
+}
+
+.stars .text{
+  min-width: 240px;
+  text-align: center;
+}
 
 /*------------------Footer--------------------*/
 .attribution {
